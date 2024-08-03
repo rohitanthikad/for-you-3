@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6;
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.transparenttextures.com/patterns/roses.png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.card {
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#yesButton {
+    background-color: green;
+    transform: scale(1); /* Initial scale */
+    transition: transform 0.3s ease;
+}
+
+#noButton {
+    background-color: red;
+}
+
+.buttons a:hover {
+    background-color: #444;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
